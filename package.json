@@ -1,0 +1,59 @@
+{
+  "name": "academyx",
+  "version": "0.0.1",
+  "description": "Elearning",
+  "productName": "Acadx",
+  "author": "mugs",
+  "private": true,
+  "scripts": {
+    "lint": "eslint --ext .js,.ts,.vue --ignore-path .gitignore ./",
+    "test": "echo \"No test specified\" && exit 0",
+    "build": "quasar build",
+    "deploy": "vercel"
+  },
+  "engines": {
+    "node": ">= 10.18.1",
+    "npm": ">= 6.13.4",
+    "yarn": ">= 1.21.1"
+  },
+  "browserslist": [
+    "ie 11",
+    "defaults"
+  ],
+  "dependencies": {
+    "@quasar/extras": "^1.9.18",
+    "aws4": "^1.11.0",
+    "axios": "^0.21.1",
+    "core-js": "^3.9.1",
+    "es-cookie": "^1.3.2",
+    "node-sass": "^5.0.0",
+    "quasar": "^1.15.4",
+    "ts-node": "^8.10.1",
+    "tsconfig-paths": "^3.9.0",
+    "vue": "^2.6.11",
+    "vue-class-component": "^7.2.2",
+    "vue-cookies-ts": "^1.5.19",
+    "vue-i18n": "^8.0.0",
+    "vue-loader": "^15.9.2",
+    "vue-property-decorator": "^8.3.0",
+    "vuex": "^3.5.1",
+    "webpack": "^4.43.0"
+  },
+  "devDependencies": {
+    "@quasar/app": "^2.1.15",
+    "@types/node": "^14.14.31",
+    "@typescript-eslint/eslint-plugin": "^2.34.0",
+    "@typescript-eslint/parser": "^2.34.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.9.0",
+    "eslint-loader": "^3.0.3",
+    "eslint-plugin-vue": "^6.1.2",
+    "typescript": "^3.9.5",
+    "vuex-class": "^0.3.2",
+    "vuex-module-decorators": "^0.16.1"
+  },
+  "resolutions": {
+    "@babel/parser": "7.7.5"
+  }
+}

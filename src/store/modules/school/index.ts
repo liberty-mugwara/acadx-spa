@@ -1,0 +1,9 @@
+export { School } from './school';
+export { CurrentTerm } from './current-term';
+export { Classes } from './classes';
+export { SchoolAdmin } from './admin';
+export { Librarian } from './librarian';
+export { Teacher } from './teacher';
+export { Parent } from './parent';
+export { Student } from './student';
+export { ClassSubjectTeacher } from './class-subject-teacher';

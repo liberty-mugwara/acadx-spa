@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script>
+      (() => {
+        let acadx_schoolterms = [{ name: 'hgfd', id: 2, position: 8 }];
+        const term = this.acadx_schoolterms.find(term => term.id === 2);
+        console.info(acadx_schoolterms);
+        if (term) {
+          term.name = 'Term1';
+          term.position = 1;
+        }
+        console.log(acadx_schoolterms);
+      })();
+    </script>
+  </head>
+  <body></body>
+</html>

@@ -1,0 +1,18 @@
+{
+  "extends": "@quasar/app/tsconfig-preset",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "experimentalDecorators": true,
+    "target": "es5",
+    "strict": true,
+    "module": "esnext",
+
+    "paths": {
+      //mugs-defined webpack aliases
+      "helpers": ["src/helpers"],
+      "interfaces": ["src/interfaces/"],
+      "store": ["src/store/"],
+      "store/*": ["src/store/*"]
+    }
+  }
+}
